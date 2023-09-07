@@ -1,4 +1,4 @@
-//Save this code with the filename wifi_cracker.py
+#Save this code with the filename wifi_cracker.py
 
 import pywifi
 import time
