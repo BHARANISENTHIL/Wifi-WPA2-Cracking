@@ -1,13 +1,13 @@
 # Wifi-WPA2-Cracking
-Cracking/Bruteforcing  Wifi WPA2 passwords using python
+Cracking/Bruteforcing  Wifi WPA2 passwords using Python
 
 Requirements:
-  Python 3 or higher
-  Wordlist File
-  Network adapter
+  Python 3 or higher, 
+  Wordlist File, 
+  Network adapter.
 
 Steps:
-  1. Save the program with the filename wifi_cracker.py in a new folder.
+  1. Save the program with the respective filename in a new folder.
   
   2. Create a text file wihin the same folder with the filename Wordlist.txt.
      This wordlist should contain a list of passwords in the consecutive lines.
@@ -28,14 +28,12 @@ Steps:
        Now a virtual environment is created in your project folder and the code can be executed within the environment.
   
   5.After setting up the virtual environment, run the program using the command:
-        python wifi_cracker.py
+        python wifi_cracker.py  / python specific.py
   
   6.To deactivate the virtual environment you can use the command:
         deactivate
 
   7.Alternatively, if you want to target a single netowrk, you can use the Specific.py program and entering the SSID of the network.
-    Command to execute this code:
-        python specific.py
 
   Note:
         1.The code and the wordlist should be in the same folder.
@@ -45,7 +43,9 @@ Steps:
               pip3 install pywifi
               python3 -m venv myvenv
               python3 wifi_cracker.py
-        4. Python version that supports pywifi library must be installed(python 3 or higher).
+        4.Python version that supports pywifi library must be installed(python 3 or higher).
+        5.You can create your own wordlist file or use some of the famous wordlist files such as the rockyou wordlist: 
+              https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
         
 
       
