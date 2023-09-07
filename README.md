@@ -7,9 +7,9 @@ Requirements:
   Network adapter.
 
 Steps:
-  1. Save the program with the respective filename in a new folder.
-  
-  2. Create a text file wihin the same folder with the filename Wordlist.txt.
+1. Save the program with the respective filename in a new folder.
+
+2. Create a text file wihin the same folder with the filename Wordlist.txt.
      This wordlist should contain a list of passwords in the consecutive lines.
   
   3.Connect a network adapter in your computer such as an Alfa network adapter.
