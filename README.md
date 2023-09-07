@@ -33,6 +33,21 @@ Steps:
   6.To deactivate the virtual environment you can use the command:
         deactivate
 
+  7.Alternatively, if you want to target a single netowrk, you can use the Specific.py program and entering the SSID of the network.
+    Command to execute this code:
+        python specific.py
+
+  Note:
+        1.The code and the wordlist should be in the same folder.
+        2.A Network adapter that supports monitor mode is essential.
+        3.In some instances, the commands have to specific to the python version. In those cases, the version must also be specified in the command.
+          For example, in python 3, the commands have to be used like:
+              pip3 install pywifi
+              python3 -m venv myvenv
+              python3 wifi_cracker.py
+        4. Python version that supports pywifi library must be installed(python 3 or higher).
+        
+
       
   
       
