@@ -1,3 +1,5 @@
+//Save this code with the filename wifi_cracker.py
+
 import pywifi
 import time
 from pywifi import const
